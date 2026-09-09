@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #e113d4;
+  --foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wordmarkScreen {
+  align-items: center;
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 24px;
+}
+
+.wordmarkScreen h1 {
+  color: var(--foreground);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(72px, 13vw, 220px);
+  font-weight: 900;
+  gap: clamp(12px, 2.2vw, 42px);
+  letter-spacing: 0;
+  line-height: 0.86;
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .wordmarkScreen h1 {
+    font-size: clamp(64px, 19vw, 118px);
+  }
+}
