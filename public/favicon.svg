@@ -1,13 +1,27 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="64" height="64" fill="#e113d4"/>
   <text
-    x="32"
-    y="47"
+    x="5"
+    y="24"
     fill="#000000"
     font-family="Arial, Helvetica, sans-serif"
-    font-size="42"
+    font-size="27"
     font-weight="900"
-    letter-spacing="-4"
-    text-anchor="middle"
-  >LBJ</text>
+  >L</text>
+  <text
+    x="21"
+    y="42"
+    fill="#000000"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="27"
+    font-weight="900"
+  >B</text>
+  <text
+    x="42"
+    y="60"
+    fill="#000000"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="27"
+    font-weight="900"
+  >J</text>
 </svg>
