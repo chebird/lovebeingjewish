@@ -48,6 +48,7 @@ test("uses site-specific metadata and assets", async () => {
 
   assert.match(layout, /https:\/\/www\.lovebeingjewish\.com/);
   assert.match(layout, /LOVE\. BEING\. JEWISH\./);
+  assert.match(layout, /\/favicon-lbj\.svg/);
   assert.doesNotMatch(layout, /\/og\.png|summary_large_image|everyday joy/);
   assert.match(page, /<span>LOVE\.<\/span>/);
   assert.match(page, /<span>BEING\.<\/span>/);
