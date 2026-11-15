@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   title: "Love Being Jewish",
   description: "LOVE. BEING. JEWISH.",
   icons: {
-    icon: "/favicon-lbj.svg",
-    shortcut: "/favicon-lbj.svg",
+    icon: "/favicon-lbj.svg?v=2",
+    shortcut: "/favicon-lbj.svg?v=2",
   },
   openGraph: {
     title: "Love Being Jewish",
